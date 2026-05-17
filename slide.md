@@ -314,7 +314,9 @@ T(x,z,0)=T_b+\Delta T_0 e^{-z/\delta_{\rm abs}}\cos(qx)
 $$
 
 <div class="note">
+
 $\Lambda$ 是实验中可主动调控的空间尺度；$q$ 决定热扩散的主方向。
+
 </div>
 
 ---
@@ -402,7 +404,7 @@ $$
 
 ---
 
-# 从 $\alpha$ 到 $\kappa$：完整物性链条
+# 从  $\alpha$ 到 $\kappa$：完整物性链条 (1/2)
 
 TGS 直接得到的是热扩散率：
 
@@ -421,6 +423,10 @@ $$
 - $C_p(T)$：由 DSC / STA 测量
 - $\rho(T)$：由室温密度与热膨胀修正
 - $\alpha(T)$：由 TGS 衰减拟合获得
+
+---
+
+# 从 $\alpha$ 到 $\kappa$：密度修正与误差传播 (2/2)
 
 密度修正可写为：
 
@@ -441,7 +447,6 @@ $$
 \left(\frac{\Delta C_p}{C_p}\right)^2
 }
 $$
-
 ---
 
 # TRISO SiC 层中的关键几何
@@ -747,8 +752,11 @@ $$
 - 高温热导率下降机制
 
 <div class="warn">
+
 关键定位：$I(\omega,T)\not\Rightarrow \kappa(T)$。  
+
 它不是直接测热导率，而是解释热导率退化机制。
+
 </div>
 
 ---
