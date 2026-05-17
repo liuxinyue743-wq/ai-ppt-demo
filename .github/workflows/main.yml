@@ -17,14 +17,14 @@ jobs:
       - name: 编译 PDF 
         uses: docker://marpteam/marp-cli:v3.4.0
         with:
-          args: slide.md --pdf --allow-local-files -o build/slide.pdf
+          args: slide.md --pdf --allow-local-files --html -o build/slide.pdf
         env:
           MARP_USER: root:root
           
       - name: 编译 PPTX
         uses: docker://marpteam/marp-cli:v3.4.0
         with:
-          args: slide.md --pptx --allow-local-files -o build/slide.pptx
+          args: slide.md --pptx --allow-local-files --html -o build/slide.pptx
         env:
           MARP_USER: root:root
 
