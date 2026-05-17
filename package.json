@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "marp -w --html slide.md",
+    "build:pdf": "marp slide.md --pdf --allow-local-files --html -o slide.pdf",
+    "build:pptx": "marp slide.md --pptx --allow-local-files --html -o slide.pptx"
   },
   "keywords": [],
   "author": "",
